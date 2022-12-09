@@ -2,7 +2,7 @@
 
 ## Array & Hashing
 
-1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) $${\color{green}(easy)}$$ <p style="color:green"> (easy) </p> - Solution
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - Solution
 
 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> - Solution
 
