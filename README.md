@@ -1,4 +1,4 @@
-    List Collected From: https://neetcode.io/
+    List Collected From: https://neetcode.io/practice
 
 ## Array & Hashing
 
@@ -32,8 +32,6 @@
 
 5. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<span style="color:red"> (hard) </span> - Solution 
 
-
-
 ## Sliding Window
 
 1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  <span style="color:green"> (easy) </span> - Solution
@@ -47,8 +45,6 @@
 5. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<span style="color:red"> (hard) </span> - Solution 
 
 6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)<span style="color:red"> (hard) </span> - Solution 
-
-
 
 ## Stack
 
@@ -65,7 +61,6 @@
 6. [Car Fleet](https://leetcode.com/problems/car-fleet/)<span style="color:yellow"> (medium) </span>   - Solution
 
 7. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)<span style="color:red"> (hard) </span> - Solution 
-
 
 ## Binary Search
 
@@ -165,8 +160,6 @@
 
 7. [Find Median from Data Stream ](https://leetcode.com/problems/find-median-from-data-stream/)<span style="color:red"> (hard) </span> - Solution 
 
-
-
 ## Backtracking
 
 1. [Subsets](https://leetcode.com/problems/subsets/)<span style="color:yellow"> (medium) </span> - Solution
@@ -230,7 +223,6 @@
 5. [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)<span style="color:red"> (hard) </span> - Solution 
 
 6. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)<span style="color:yellow"> (medium) </span> - Solution
-
 
 ## 1-D Dynamic Programming
 
@@ -300,7 +292,6 @@
 
 8. [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)<span style="color:yellow"> (medium) </span> - Solution
 
-
 ## Interval
 
 1. [Insert Interval](https://leetcode.com/problems/insert-interval/)<span style="color:yellow"> (medium) </span> - Solution
@@ -314,7 +305,6 @@
 5. [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)<span style="color:yellow"> (medium) </span> - Solution
 
 6. [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)<span style="color:red"> (hard) </span> - Solution 
-
 
 ## Math & Geometry
 
@@ -334,8 +324,6 @@
 
 8. [Detect Squares](https://leetcode.com/problems/detect-squares/)<span style="color:yellow"> (medium) </span> - Solution
 
-
-
 ## Bit Manipulation
 
 1. [Single Number](https://leetcode.com/problems/single-number/) <span style="color:green"> (easy) </span> - Solution
@@ -351,7 +339,3 @@
 6. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<span style="color:yellow"> (medium) </span> - Solution
 
 7. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)<span style="color:yellow"> (medium) </span> - Solution
-
-
-
-
