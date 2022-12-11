@@ -308,21 +308,21 @@
 
 ## Math & Geometry
 
-1. [Rotate Image](https://leetcode.com/problems/rotate-image/)<span style="color:yellow"> (medium) </span> - Solution
+1. [Rotate Image](https://leetcode.com/problems/rotate-image/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/48.%20Rotate%20Image.go)
 
-2. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)<span style="color:yellow"> (medium) </span> - Solution
+2. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/54.%20Spiral%20Matrix.go)
 
-3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<span style="color:yellow"> (medium) </span> - Solution
+3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/73.%20Set%20Matrix%20Zeroes.go)
 
-4. [Happy Number](https://leetcode.com/problems/happy-number/) <span style="color:green"> (easy) </span> - Solution
+4. [Happy Number](https://leetcode.com/problems/happy-number/) <span style="color:green"> (easy) </span> - [Solution](./18.Math%26Geometry/202.%20Happy%20Number.go)
 
-5. [Plus One](https://leetcode.com/problems/plus-one/)<span style="color:green"> (easy) </span> - Solution
+5. [Plus One](https://leetcode.com/problems/plus-one/)<span style="color:green"> (easy) </span> - [Solution](./18.Math%26Geometry/66.%20Plus%20One.go)
 
-6. [Pow(x, n)](https://leetcode.com/problems/powx-n/)<span style="color:yellow"> (medium) </span> - Solution
+6. [Pow(x, n)](https://leetcode.com/problems/powx-n/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/66.%20Plus%20One.go)
 
-7. [Multiply Strings](https://leetcode.com/problems/multiply-strings/)<span style="color:yellow"> (medium) </span> - Solution
+7. [Multiply Strings](https://leetcode.com/problems/multiply-strings/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/43.%20Multiply%20Strings.go)
 
-8. [Detect Squares](https://leetcode.com/problems/detect-squares/)<span style="color:yellow"> (medium) </span> - Solution
+8. [Detect Squares](https://leetcode.com/problems/detect-squares/)<span style="color:yellow"> (medium) </span> - [Solution](./18.Math%26Geometry/1811.%20Detect%20Squares.go)
 
 ## Bit Manipulation
 
