@@ -20,11 +20,11 @@ func main() {
 func isAnagram(s string, t string) bool {
 
 	arr1 := []int{}
-	for i := 0; i < 52; i++ {
+	for i := 0; i < 58; i++ {
 		arr1 = append(arr1, 0)
 	}
 	arr2 := []int{}
-	for i := 0; i < 52; i++ {
+	for i := 0; i < 58; i++ {
 		arr2 = append(arr2, 0)
 	}
 	for i := 0; i < len(s); i++ {
@@ -34,7 +34,7 @@ func isAnagram(s string, t string) bool {
 		arr2[t[i]-'A']++
 	}
 	ans := true
-	for i := 0; i < 52; i++ {
+	for i := 0; i < 58; i++ {
 		if arr1[i] != arr2[i] {
 			ans = false
 			return ans
