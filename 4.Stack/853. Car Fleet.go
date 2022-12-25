@@ -41,7 +41,7 @@ func carFleet(target int, position []int, speed []int) int {
 	}
 	stack := make([]float64, 0)
 	sort.Sort(carPair)
-    fmt.Println("🚀 ~ file: 853. Car Fleet.go ~ line 28 ~ funccarFleet ~ carPair : ", carPair)
+    //fmt.Println("🚀 ~ file: 853. Car Fleet.go ~ line 28 ~ funccarFleet ~ carPair : ", carPair)
 	for _, i := range carPair {
 		stack = append(stack, float64((target-i[0]))/float64(i[1]))
 		if len(stack) > 1 && stack[len(stack)-1] <= stack[len(stack)-2] {
