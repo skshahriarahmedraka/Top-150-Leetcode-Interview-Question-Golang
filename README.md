@@ -1,4 +1,3 @@
-
     List Collected From: https://neetcode.io/practice
 
 ## Array & Hashing
@@ -227,29 +226,29 @@
 
 ## 1-D Dynamic Programming
 
-1. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) <span style="color:green"> (easy) </span> - Solution
+1. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) <span style="color:green"> (easy) </span> - [Solution](./13.1-D%20Dynamic%20Programming/787.%20Cheapest%20Flights%20Within%20K%20Stops.go)
 
-2. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)<span style="color:green"> (easy) </span> - Solution
+2. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)<span style="color:green"> (easy) </span> - [Solution](./13.1-D%20Dynamic%20Programming/746.%20Min%20Cost%20Climbing%20Stairs.go)
 
-3. [House Robber](https://leetcode.com/problems/house-robber/)<span style="color:yellow"> (medium) </span> - Solution
+3. [House Robber](https://leetcode.com/problems/house-robber/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/198.%20House%20Robber.go)
 
-4. [House Robber II](https://leetcode.com/problems/house-robber-ii/)<span style="color:yellow"> (medium) </span> - Solution
+4. [House Robber II](https://leetcode.com/problems/house-robber-ii/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/213.%20House%20Robber%20II.go)
 
-5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)<span style="color:yellow"> (medium) </span> - Solution
+5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/5.%20Longest%20Palindromic%20Substring.go)
 
-6. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)<span style="color:yellow"> (medium) </span> - Solution
+6. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/647.%20Palindromic%20Substrings.go)
 
-7. [Decode Ways](https://leetcode.com/problems/decode-ways/)<span style="color:yellow"> (medium) </span> - Solution
+7. [Decode Ways](https://leetcode.com/problems/decode-ways/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/91.%20Decode%20Ways.go)
 
-8. [Coin Change](https://leetcode.com/problems/coin-change/)<span style="color:yellow"> (medium) </span> - Solution
+8. [Coin Change](https://leetcode.com/problems/coin-change/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/322.%20Coin%20Change.go)
 
-9. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)<span style="color:yellow"> (medium) </span> - Solution
+9. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/152.%20Maximum%20Product%20Subarray.go)
 
-10. [Word Break](https://leetcode.com/problems/word-break/)<span style="color:yellow"> (medium) </span> - Solution
+10. [Word Break](https://leetcode.com/problems/word-break/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/139.%20Word%20Break.go)
 
-11. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<span style="color:yellow"> (medium) </span> - Solution
+11. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/300.%20Longest%20Increasing%20Subsequence.go)
 
-12. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)<span style="color:yellow"> (medium) </span> - Solution
+12. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)<span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum.go)
 
 ## 2-D Dynamic Programming
 
