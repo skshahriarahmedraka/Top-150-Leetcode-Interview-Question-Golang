@@ -1,3 +1,10 @@
+/* *  @Author: Sk Shahriar Ahmed Raka   * Email: skshahriarahmedraka@gmail.com  * Telegram: https://t.me/shahriarraka  * Github: https://github.com/skshahriarahmedraka  * StackOverflow: https://stackoverflow.com/users/12216779/  * Linkedin: https://linkedin.com/in/shahriarraka  * -----  * Last Modified:  * Modified By:  * -----  * Copyright (c) 2022 Your Company   * @Date: 2023-01-09 10:29:30  * @Last Modified by:   Sk Shahirar Ahmed Raka  * @Last Modified time: 2023-01-09 10:29:30  */
+// Runtime4 ms
+// Beats
+// 85.56%
+// Memory3.3 MB
+// Beats
+// 100%
 package main  
 
 func main (){
