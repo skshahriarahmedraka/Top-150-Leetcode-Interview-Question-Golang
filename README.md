@@ -158,7 +158,7 @@
 
 6. [Design Twitter ](https://leetcode.com/problems/design-twitter/)<span style="color:yellow"> (medium) </span> - [Solution](./9.Heap%5CPriority%20Queue/355.%20Design%20Twitter.go)
 
-7. [Find Median from Data Stream ](https://leetcode.com/problems/find-median-from-data-stream/)<span style="color:red"> (hard) </span> - [Solution](./9.Heap%5CPriority%20Queue/295.%20Find%20Median%20from%20Data%20Stream.go)) 
+7. [Find Median from Data Stream ](https://leetcode.com/problems/find-median-from-data-stream/)<span style="color:red"> (hard) </span> - [Solution](./9.Heap%5CPriority%20Queue/295.%20Find%20Median%20from%20Data%20Stream.go)
 
 ## Backtracking
 
