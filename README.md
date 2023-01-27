@@ -6,7 +6,7 @@
 
 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
 
-3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go)
+3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> - []  [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
 
 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> - [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams.go)
 
@@ -44,17 +44,17 @@
 
 5. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<span style="color:red"> (hard) </span> - [Solution](./3.Sliding%20Window/76.%20Minimum%20Window%20Substring.go) 
 
-6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)<span style="color:red"> (hard) </span> - [Solution] 
+6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)<span style="color:red"> (hard) </span> - [Solution](./)
 
 ## Stack
 
 1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) <span style="color:green"> (easy) </span> - [Solution](./4.Stack/20.%20Valid%20Parentheses.go)
+
 2. [Min Stack ](https://leetcode.com/problems/min-stack/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/155.%20Min%20Stack.go)
 
 3. [Evaluate Reverse Polish Notation ](https://leetcode.com/problems/evaluate-reverse-polish-notation/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.go)
 
 4. [Generate Parentheses ](https://leetcode.com/problems/generate-parentheses/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/22.%20Generate%20Parentheses.go)
-
 
 5. [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/739.%20Daily%20Temperatures.go)
 
