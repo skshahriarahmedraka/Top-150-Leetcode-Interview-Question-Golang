@@ -4,7 +4,7 @@
 // Memory6.1 MB
 // Beats
 // 69.63%
-// package main
+package main
 
 import "fmt"
 
