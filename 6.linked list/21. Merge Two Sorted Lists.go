@@ -1,3 +1,11 @@
+/* *  @Author: Sk Shahriar Ahmed Raka   * Email: skshahriarahmedraka@gmail.com  * Telegram: https://t.me/shahriarraka  * Github: https://github.com/skshahriarahmedraka  * StackOverflow: https://stackoverflow.com/users/12216779/  * Linkedin: https://linkedin.com/in/shahriarraka  * -----  * Last Modified:  * Modified By:  * -----  * Copyright (c) 2022 Your Company   * @Date: 2023-02-15 20:51:29  * @Last Modified by:   Sk Shahirar Ahmed Raka  * @Last Modified time: 2023-02-15 20:51:29  */
+// Runtime0 ms
+// Beats
+// 100%
+// Memory2.4 MB
+// Beats
+// 55.92%
+
 package main
 
 func main() {
@@ -10,47 +18,24 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	sorted := &ListNode{}
-	head := sorted
-	for list1 != nil || list2 != nil {
-		if list1 != nil && list2 != nil {
-			if list1.Val <= list2.Val {
-				if sorted == nil {
-					sorted = list1
-					sorted = sorted.Next
-					list1 = list1.Next
-				} else {
-					sorted.Val = list1.Val
-					list1 = list1.Next
-					sorted = sorted.Next
-
-				}
-
-			} else {
-				if sorted == nil {
-					sorted = list2
-					sorted = sorted.Next
-					list2 = list2.Next
-				} else {
-					sorted.Val = list2.Val
-					list2 = list2.Next
-					sorted = sorted.Next
-				}
-
-			}
-		}
-		if list1 == nil {
-			sorted = list1
-			sorted = sorted.Next
-			list1 = list1.Next
-		} else {
-			sorted = list2
-			sorted = sorted.Next
-			list2 = list2.Next
-		}
-	}
-
-	return head
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+    var dummy = new(ListNode)
+    var p = dummy
+    for l1 != nil && l2 != nil {
+        if l1.Val < l2.Val {
+            p.Next = l1
+            l1 = l1.Next
+        } else {
+            p.Next = l2
+            l2 = l2.Next
+        }
+        p = p.Next
+    }
+    if l1 != nil {
+        p.Next = l1
+    } else {
+        p.Next = l2;
+    }
+    return dummy.Next
 
 }

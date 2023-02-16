@@ -100,7 +100,7 @@
 
 10. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<span style="color:red"> (hard) </span> - [Solution](./6.linked%20list/23.%20Merge%20k%20Sorted%20Lists.go) 
 
-11. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)<span style="color:red"> (hard) </span> - [Solution](./6.linked%20list/25.%20Reverse%20Nodes%20in%20k-Group.go) 
+11. [Reverse Nodes in k-Group]( )<span style="color:red"> (hard) </span> - [Solution](./6.linked%20list/25.%20Reverse%20Nodes%20in%20k-Group.go) 
 
 12. 
 
