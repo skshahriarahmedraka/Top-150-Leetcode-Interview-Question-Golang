@@ -1,5 +1,7 @@
     List Collected From: https://neetcode.io/practice
 
+
+
 ## Array & Hashing
 
 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/217.%20Contains%20Duplicate.go)
@@ -226,7 +228,7 @@
 
 ## 1-D Dynamic Programming
 
-1. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) <span style="color:green"> (easy) </span> - [Solution](./13.1-D%20Dynamic%20Programming/787.%20Cheapest%20Flights%20Within%20K%20Stops.go)
+1. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) <span style="color:yellow"> (medium) </span> - [Solution](./13.1-D%20Dynamic%20Programming/787.%20Cheapest%20Flights%20Within%20K%20Stops.go)
 
 2. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)<span style="color:green"> (easy) </span> - [Solution](./13.1-D%20Dynamic%20Programming/746.%20Min%20Cost%20Climbing%20Stairs.go)
 
