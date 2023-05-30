@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-	// s:= "A man, a plan, a canal: Panama"
+	s:= "A man, a plan, a canal: Panama"
 	// s:="race a car"
 	// s:="0P"
 	// s:=" "

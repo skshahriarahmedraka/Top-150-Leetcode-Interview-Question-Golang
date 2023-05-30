@@ -5,6 +5,24 @@
 // Beats
 // 10.4%
 
+// 49. Group Anagrams
+// Medium
+// 15.4K
+// 442
+// Companies
+
+// Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+// An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+ 
+
+// Example 1:
+
+// Input: strs = ["eat","tea","tan","ate","nat","bat"]
+// Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+
 package main
 
 import (
@@ -18,52 +36,7 @@ func main() {
 	fmt.Println("groupAnagrams: ", groupAnagrams(li))
 }
 
-// func groupAnagrams(strs []string) [][]string {
-//
-// 	ans := [][]string{}
-// 	temp := []string{}
-// 	for i := 0; len(strs) > 0; {
-// 		for j := i + 1; j < len(strs); j++ {
-// 			if isAnagram(strs[i], strs[j]) {
-// 				temp = append(temp, strs[j])
-// 				strs = append(strs[:j], strs[j+1:]...)
-// 				j--
-// 			}
-//
-// 		}
-// 		temp = append(temp, strs[i])
-// 		strs = append(strs[:i], strs[i+1:]...)
-// 		ans = append(ans, temp)
-// 		temp = []string{}
-//
-// 	}
-// 	return ans
-// }
-// func isAnagram(s string, t string) bool {
-//
-// 	arr1 := []int{}
-// 	for i := 0; i < 26; i++ {
-// 		arr1 = append(arr1, 0)
-// 	}
-// 	arr2 := []int{}
-// 	for i := 0; i < 26; i++ {
-// 		arr2 = append(arr2, 0)
-// 	}
-// 	for i := 0; i < len(s); i++ {
-// 		arr1[s[i]-'a']++
-// 	}
-// 	for i := 0; i < len(t); i++ {
-// 		arr2[t[i]-'a']++
-// 	}
-// 	ans := true
-// 	for i := 0; i < 26; i++ {
-// 		if arr1[i] != arr2[i] {
-// 			ans = false
-// 			return ans
-// 		}
-// 	}
-// 	return ans
-// }
+
 
 func groupAnagrams(strs []string) [][]string {
 	record := map[string][]string{}
