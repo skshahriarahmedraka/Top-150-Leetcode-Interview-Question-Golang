@@ -10,7 +10,7 @@
 
 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
 
-3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> - []  [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
+3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
 
 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> - [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams.go)
 
