@@ -6,7 +6,7 @@
 
 ## Array & Hashing
 
-1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/217.%20Contains%20Duplicate.go)
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays&Hashing/217.%20Contains%20Duplicate/217.%20Contains%20Duplicate.go) [Read](./1.Arrays&Hashing/217.%20Contains%20Duplicate/README.md)
 
 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
 
