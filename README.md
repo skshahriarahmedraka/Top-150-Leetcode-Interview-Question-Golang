@@ -2,109 +2,107 @@
 
 #### Golang Implimentation By [Sk Shahriar Ahmed Raka](https://github.com/skshahriarahmedraka)
 
-
-
 ## Array & Hashing
 
-1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays&Hashing/217.%20Contains%20Duplicate/217.%20Contains%20Duplicate.go) [Read](./1.Arrays&Hashing/217.%20Contains%20Duplicate/README.md)
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Problem](./1.Arrays&Hashing/217.%20Contains%20Duplicate/README.md) -  [Solution](./1.Arrays&Hashing/217.%20Contains%20Duplicate/217.%20Contains%20Duplicate.go)
 
-2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
+2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
 
-3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> - [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
+3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
 
-4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> - [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams.go)
+4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams.go)
 
-5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   <span style="color:yellow"> (medium) </span>  - [Solution](./1.Arrays%26Hashing/347.%20Top%20K%20Frequent%20Elements.go) 
+5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   <span style="color:yellow"> (medium) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/347.%20Top%20K%20Frequent%20Elements.go) 
 
-6. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   <span style="color:yellow"> (medium) </span>   - [Solution](./1.Arrays%26Hashing/238.%20Product%20of%20Array%20Except%20Self.go) 
+6. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./1.Arrays%26Hashing/238.%20Product%20of%20Array%20Except%20Self.go) 
 
-7. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   <span style="color:yellow"> (medium) </span>   - [Solution](./1.Arrays%26Hashing/36.%20Valid%20Sudoku.go)
+7. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   <span style="color:yellow"> (medium) </span> -[Problem](./)  - [Solution](./1.Arrays%26Hashing/36.%20Valid%20Sudoku.go)
 
-8. [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)   <span style="color:yellow"> (medium) </span>  - [Solution](./1.Arrays%26Hashing/271.%20Encode%20and%20Decode%20Strings.go)
+8. [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)   <span style="color:yellow"> (medium) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/271.%20Encode%20and%20Decode%20Strings.go)
 
-9. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)   <span style="color:yellow"> (medium) </span>   - [Solution](./1.Arrays%26Hashing/128.%20Longest%20Consecutive%20Sequence.go)
+9. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)   <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./1.Arrays%26Hashing/128.%20Longest%20Consecutive%20Sequence.go)
 
 ## Two Pointers
 
-1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  <span style="color:green"> (easy) </span>  - [Solution](./2.Two%20Pointer/125.%20Valid%20Palindrome.go)
+1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  <span style="color:green"> (easy) </span> -[Problem](./) - [Solution](./2.Two%20Pointer/125.%20Valid%20Palindrome.go)
 
-2. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) <span style="color:yellow"> (medium) </span>   - [Solution](./2.Two%20Pointer/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.go)
+2. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./2.Two%20Pointer/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.go)
 
-3. [3Sum](https://leetcode.com/problems/3sum/)<span style="color:yellow"> (medium) </span>   - [Solution](./2.Two%20Pointer/15.%203Sum.go)
+3. [3Sum](https://leetcode.com/problems/3sum/)<span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./2.Two%20Pointer/15.%203Sum.go)
 
-4. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) <span style="color:yellow"> (medium) </span>   - [Solution](./2.Two%20Pointer/11.%20Container%20With%20Most%20Water.go)
+4. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) <span style="color:yellow"> (medium) </span> -[Problem](./)  - [Solution](./2.Two%20Pointer/11.%20Container%20With%20Most%20Water.go)
 
-5. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<span style="color:red"> (hard) </span> - [Solution](./2.Two%20Pointer/42.%20Trapping%20Rain%20Water.go) 
+5. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./2.Two%20Pointer/42.%20Trapping%20Rain%20Water.go) 
 
 ## Sliding Window
 
-1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  <span style="color:green"> (easy) </span> - [Solution](./3.Sliding%20Window/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.go)
+1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  <span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./3.Sliding%20Window/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.go)
 
-2. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<span style="color:yellow"> (medium) </span>   - [Solution](./3.Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters.go)
+2. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./3.Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters.go)
 
-3. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) <span style="color:yellow"> (medium) </span>   - [Solution](./3.Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement.go)
+3. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./3.Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement.go)
 
-4. [Permutation in String ](https://leetcode.com/problems/permutation-in-string/) <span style="color:yellow"> (medium) </span>   - [Solution](./3.Sliding%20Window/567.%20Permutation%20in%20String.go)
+4. [Permutation in String ](https://leetcode.com/problems/permutation-in-string/) <span style="color:yellow"> (medium) </span>   -[Problem](./)- [Solution](./3.Sliding%20Window/567.%20Permutation%20in%20String.go)
 
-5. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<span style="color:red"> (hard) </span> - [Solution](./3.Sliding%20Window/76.%20Minimum%20Window%20Substring.go) 
+5. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./3.Sliding%20Window/76.%20Minimum%20Window%20Substring.go) 
 
-6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)<span style="color:red"> (hard) </span> - [Solution](./)
+6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./)
 
 ## Stack
 
-1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) <span style="color:green"> (easy) </span> - [Solution](./4.Stack/20.%20Valid%20Parentheses.go)
+1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) <span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./4.Stack/20.%20Valid%20Parentheses.go)
 
-2. [Min Stack ](https://leetcode.com/problems/min-stack/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/155.%20Min%20Stack.go)
+2. [Min Stack ](https://leetcode.com/problems/min-stack/)<span style="color:yellow"> (medium) </span> -[Problem](./)  - [Solution](./4.Stack/155.%20Min%20Stack.go)
 
-3. [Evaluate Reverse Polish Notation ](https://leetcode.com/problems/evaluate-reverse-polish-notation/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.go)
+3. [Evaluate Reverse Polish Notation ](https://leetcode.com/problems/evaluate-reverse-polish-notation/)<span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./4.Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.go)
 
-4. [Generate Parentheses ](https://leetcode.com/problems/generate-parentheses/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/22.%20Generate%20Parentheses.go)
+4. [Generate Parentheses ](https://leetcode.com/problems/generate-parentheses/)<span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./4.Stack/22.%20Generate%20Parentheses.go)
 
-5. [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/739.%20Daily%20Temperatures.go)
+5. [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/)<span style="color:yellow"> (medium) </span>   -[Problem](./)- [Solution](./4.Stack/739.%20Daily%20Temperatures.go)
 
 6. [Car Fleet](https://leetcode.com/problems/car-fleet/)<span style="color:yellow"> (medium) </span>   - [Solution](./4.Stack/853.%20Car%20Fleet.go)
 
-7. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)<span style="color:red"> (hard) </span> - [Solution](./4.Stack/84.%20Largest%20Rectangle%20in%20Histogram.go) 
+7. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./4.Stack/84.%20Largest%20Rectangle%20in%20Histogram.go) 
 
 ## Binary Search
 
-1. [Binary Search](https://leetcode.com/problems/binary-search/)<span style="color:green"> (easy) </span> - [Solution](./5.Binary%20Search/704.%20Binary%20Search.go)
+1. [Binary Search](https://leetcode.com/problems/binary-search/)<span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./5.Binary%20Search/704.%20Binary%20Search.go)
 
-2. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)<span style="color:yellow"> (medium) </span> - [Solution](./5.Binary%20Search/74.%20Search%20a%202D%20Matrix.go)
+2. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)<span style="color:yellow"> (medium) </span> --[Problem](./) [Solution](./5.Binary%20Search/74.%20Search%20a%202D%20Matrix.go)
 
-3. [Koko Eating Bananas ](https://leetcode.com/problems/koko-eating-bananas/)<span style="color:yellow"> (medium) </span> - [Solution](./5.Binary%20Search/875.%20Koko%20Eating%20Bananas.go)
+3. [Koko Eating Bananas ](https://leetcode.com/problems/koko-eating-bananas/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./5.Binary%20Search/875.%20Koko%20Eating%20Bananas.go)
 
-4. [Search in Rotated Sorted Array ](https://leetcode.com/problems/search-in-rotated-sorted-array/)<span style="color:yellow"> (medium) </span> - [Solution](./5.Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array.go)
+4. [Search in Rotated Sorted Array ](https://leetcode.com/problems/search-in-rotated-sorted-array/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./5.Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array.go)
 
-5. [Find Minimum in Rotated Sorted Array ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<span style="color:yellow"> (medium) </span> - [Solution](./5.Binary%20Search/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.go)
+5. [Find Minimum in Rotated Sorted Array ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./5.Binary%20Search/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.go)
 
-6. [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)<span style="color:yellow"> (medium) </span> - [Solution](./5.Binary%20Search/981.%20Time%20Based%20Key-Value%20Store.go)
+6. [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./5.Binary%20Search/981.%20Time%20Based%20Key-Value%20Store.go)
 
-7. [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)<span style="color:red"> (hard) </span> - [Solution](./5.Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays.go) 
+7. [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./5.Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays.go) 
 
 ## Linked List
 
-1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<span style="color:green"> (easy) </span> - [Solution](./6.linked%20list/206.%20Reverse%20Linked%20List.go)
+1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./6.linked%20list/206.%20Reverse%20Linked%20List.go)
 
-2. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)<span style="color:green"> (easy) </span> - [Solution](./6.linked%20list/21.%20Merge%20Two%20Sorted%20Lists.go)
+2. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)<span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./6.linked%20list/21.%20Merge%20Two%20Sorted%20Lists.go)
 
-3. [Reorder List](https://leetcode.com/problems/reorder-list/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/143.%20Reorder%20List.go)
+3. [Reorder List](https://leetcode.com/problems/reorder-list/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/143.%20Reorder%20List.go)
 
-4. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.go)
+4. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.go)
 
-5. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/138.%20Copy%20List%20with%20Random%20Pointer.go)
+5. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/138.%20Copy%20List%20with%20Random%20Pointer.go)
 
-6. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/2.%20Add%20Two%20Numbers.go)
+6. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/2.%20Add%20Two%20Numbers.go)
 
-7. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<span style="color:green"> (easy) </span> - [Solution](./6.linked%20list/141.%20Linked%20List%20Cycle.go)
+7. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./6.linked%20list/141.%20Linked%20List%20Cycle.go)
 
-8. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/287.%20Find%20the%20Duplicate%20Number.go)
+8. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/287.%20Find%20the%20Duplicate%20Number.go)
 
-9. [LRU Cache](https://leetcode.com/problems/lru-cache/)<span style="color:yellow"> (medium) </span> - [Solution](./6.linked%20list/146.%20LRU%20Cache.go)
+9. [LRU Cache](https://leetcode.com/problems/lru-cache/)<span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./6.linked%20list/146.%20LRU%20Cache.go)
 
-10. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<span style="color:red"> (hard) </span> - [Solution](./6.linked%20list/23.%20Merge%20k%20Sorted%20Lists.go) 
+10. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./6.linked%20list/23.%20Merge%20k%20Sorted%20Lists.go) 
 
-11. [Reverse Nodes in k-Group]( )<span style="color:red"> (hard) </span> - [Solution](./6.linked%20list/25.%20Reverse%20Nodes%20in%20k-Group.go) 
+11. [Reverse Nodes in k-Group]( )<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./6.linked%20list/25.%20Reverse%20Nodes%20in%20k-Group.go) 
 
 12. 
 
