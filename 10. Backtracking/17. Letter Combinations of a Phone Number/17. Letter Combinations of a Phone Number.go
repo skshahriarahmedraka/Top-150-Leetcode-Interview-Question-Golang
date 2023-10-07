@@ -1,11 +1,9 @@
-
 // Runtime2 ms
 // Beats
 // 64.77%
 // Memory2.1 MB
 // Beats
 // 7.35%
-
 
 package main
 
