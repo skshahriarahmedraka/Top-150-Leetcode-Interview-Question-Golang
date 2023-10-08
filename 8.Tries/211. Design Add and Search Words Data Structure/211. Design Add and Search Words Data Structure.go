@@ -1,32 +1,43 @@
 package main
 
 func main() {
-	
+
 }
-
-
 
 type WordDictionary struct {
-    M map[byte]interface{}
+	nodes     map[rune]*WordDictionary
+	endOfWord bool
 }
-
 
 func Constructor() WordDictionary {
-    return WordDictionary{M: make(map[byte]interface{})}
+	return WordDictionary{make(map[rune]*WordDictionary), false}
 }
 
-
-func (this *WordDictionary) AddWord(word string)  {
-	for i := 1; i <= len(word); i++ {
-		if _, ok := this.M[word[i]]; !ok {
-			this.M[word[i]] = nil
-		} 
+func (d *WordDictionary) AddWord(word string) {
+	for _, r := range word {
+		if _, found := d.nodes[r]; !found {
+			node := Constructor()
+			d.nodes[r] = &node
+		}
+		d = d.nodes[r]
 	}
+	d.endOfWord = true
 }
 
-
-func (this *WordDictionary) Search(word string) bool {
-    
+func (d *WordDictionary) Search(word string) bool {
+	for i, r := range word {
+		if _, found := d.nodes[r]; !found {
+			if r != '.' {
+				return false
+			}
+			for _, node := range d.nodes {
+				if node.Search(word[i+1:]) {
+					return true
+				}
+			}
+			return false
+		}
+		d = d.nodes[r]
+	}
+	return d.endOfWord
 }
-
-

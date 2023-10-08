@@ -1,3 +1,12 @@
+// Accepted
+// Runtime
+// Details
+// 4ms
+// Beats 46.82%of users with Go
+// Memory
+// Details
+// 2.68MB
+// Beats 51.59%of users with Go
 package main
 
 import "sort"
