@@ -1,9 +1,11 @@
-// Runtime10 ms
-// Beats
-// 47.41%
-// Memory6.8 MB
-// Beats
-// 9.91%
+// Runtime
+// Details
+// 5ms
+// Beats 74.65%of users with Go
+// Memory
+// Details
+// 4.48MB
+// Beats 96.91%of users with Go
 package main
 
 func main() {
