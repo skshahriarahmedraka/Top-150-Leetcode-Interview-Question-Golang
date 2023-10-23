@@ -40,3 +40,40 @@ func min(a, b int) int {
 	}
 	return b
 }
+
+
+//////////////////
+
+func numWays(steps int, arrLen int) int {
+    var dfs func(int, int) int
+    MOD := int(1e9) + 7
+    cache := make(map[[2]int]int)
+    
+    dfs = func(steps, idx int) int {
+        if idx > steps {
+            return 0
+        }
+        if idx >= arrLen || idx < 0 {
+            return 0
+        }
+        if steps == 0 {
+            if idx == 0 {
+                return 1
+            }
+            return 0
+        }
+        if val, ok := cache[[2]int{steps, idx}]; ok {
+            return val
+        }
+        temp := 0
+        temp = (temp + dfs(steps-1, idx-1)) % MOD
+        temp = (temp + dfs(steps-1, idx)) % MOD
+        temp = (temp + dfs(steps-1, idx+1)) % MOD
+
+        cache[[2]int{steps, idx}] = temp
+
+        return cache[[2]int{steps, idx}]
+    }
+
+    return dfs(steps, 0)
+}
