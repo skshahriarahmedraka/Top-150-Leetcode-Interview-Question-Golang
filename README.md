@@ -6,33 +6,33 @@
 
 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  <span style="color:green"> (easy) </span> - [Problem](./1.Arrays&Hashing/217.%20Contains%20Duplicate/README.md) -  [Solution](./1.Arrays&Hashing/217.%20Contains%20Duplicate/217.%20Contains%20Duplicate.go)
 
-2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram.go)
+2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  <span style="color:green"> (easy) </span> -[Problem](./1.Arrays&Hashing/242.%20Valid%20Anagram/README.md) - [Solution](./1.Arrays%26Hashing/242.%20Valid%20Anagram/242.%20Valid%20Anagram.go)
 
-3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> -[Problem](./)- [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum.go) 
+3. [Two Sum](https://leetcode.com/problems/two-sum/)  <span style="color:green"> (easy) </span> -[Problem](./1.Arrays&Hashing/1.%20Two%20Sum/README.md)- [Solution](./1.Arrays%26Hashing/1.%20Two%20Sum/1.%20Two%20Sum.go) 
 
-4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> -[Problem](./)- [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams.go)
+4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <span style="color:yellow"> (medium) </span> -[Problem](./1.Arrays&Hashing/49.%20Group%20Anagrams/README.md)- [Solution](./1.Arrays%26Hashing/49.%20Group%20Anagrams/49.%20Group%20Anagrams.go)
 
-5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   <span style="color:yellow"> (medium) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/347.%20Top%20K%20Frequent%20Elements.go) 
+5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   <span style="color:yellow"> (medium) </span> -[Problem](./1.Arrays&Hashing/347.%20Top%20K%20Frequent%20Elements/README.md) - [Solution](./1.Arrays%26Hashing/347.%20Top%20K%20Frequent%20Elements/347.%20Top%20K%20Frequent%20Elements.go) 
 
-6. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./1.Arrays%26Hashing/238.%20Product%20of%20Array%20Except%20Self.go) 
+6. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   <span style="color:yellow"> (medium) </span>  -[Problem](./1.Arrays&Hashing/238.%20Product%20of%20Array%20Except%20Self/README.md) - [Solution](./1.Arrays%26Hashing/238.%20Product%20of%20Array%20Except%20Self/238.%20Product%20of%20Array%20Except%20Self.go) 
 
-7. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   <span style="color:yellow"> (medium) </span> -[Problem](./)  - [Solution](./1.Arrays%26Hashing/36.%20Valid%20Sudoku.go)
+7. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   <span style="color:yellow"> (medium) </span> -[Problem](./1.Arrays&Hashing/36.%20Valid%20Sudoku/README.md)  - [Solution](./1.Arrays%26Hashing/36.%20Valid%20Sudoku/36.%20Valid%20Sudoku.go)
 
-8. [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)   <span style="color:yellow"> (medium) </span> -[Problem](./) - [Solution](./1.Arrays%26Hashing/271.%20Encode%20and%20Decode%20Strings.go)
+8. [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)   <span style="color:yellow"> (medium) </span> -[Problem](./1.Arrays&Hashing/271.%20Encode%20and%20Decode%20Strings/README.md) - [Solution](./1.Arrays%26Hashing/271.%20Encode%20and%20Decode%20Strings/271.%20Encode%20and%20Decode%20Strings.go)
 
-9. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)   <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./1.Arrays%26Hashing/128.%20Longest%20Consecutive%20Sequence.go)
+9. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)   <span style="color:yellow"> (medium) </span>  -[Problem](./1.Arrays&Hashing/128.%20Longest%20Consecutive%20Sequence/README.md) - [Solution](./1.Arrays%26Hashing/128.%20Longest%20Consecutive%20Sequence/128.%20Longest%20Consecutive%20Sequence.go)
 
 ## Two Pointers
 
-1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  <span style="color:green"> (easy) </span> -[Problem](./) - [Solution](./2.Two%20Pointer/125.%20Valid%20Palindrome.go)
+1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  <span style="color:green"> (easy) </span> -[Problem](./2.Two%20Pointer/125.%20Valid%20Palindrome/README.md) - [Solution](./2.Two%20Pointer/125.%20Valid%20Palindrome/125.%20Valid%20Palindrome.go)
 
-2. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) <span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./2.Two%20Pointer/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.go)
+2. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) <span style="color:yellow"> (medium) </span>  -[Problem](./2.Two%20Pointer/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md) - [Solution](./2.Two%20Pointer/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.go)
 
-3. [3Sum](https://leetcode.com/problems/3sum/)<span style="color:yellow"> (medium) </span>  -[Problem](./) - [Solution](./2.Two%20Pointer/15.%203Sum.go)
+3. [3Sum](https://leetcode.com/problems/3sum/)<span style="color:yellow"> (medium) </span>  -[Problem](./2.Two%20Pointer/15.%203Sum/README.md) - [Solution](./2.Two%20Pointer/15.%203Sum/15.%203Sum.go)
 
-4. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) <span style="color:yellow"> (medium) </span> -[Problem](./)  - [Solution](./2.Two%20Pointer/11.%20Container%20With%20Most%20Water.go)
+4. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) <span style="color:yellow"> (medium) </span> -[Problem](./2.Two%20Pointer/11.%20Container%20With%20Most%20Water/README.md)  - [Solution](./2.Two%20Pointer/11.%20Container%20With%20Most%20Water/11.%20Container%20With%20Most%20Water.go)
 
-5. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<span style="color:red"> (hard) </span> -[Problem](./)- [Solution](./2.Two%20Pointer/42.%20Trapping%20Rain%20Water.go) 
+5. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<span style="color:red"> (hard) </span> -[Problem](./2.Two%20Pointer/42.%20Trapping%20Rain%20Water/README.md)- [Solution](./2.Two%20Pointer/42.%20Trapping%20Rain%20Water/42.%20Trapping%20Rain%20Water.go) 
 
 ## Sliding Window
 

@@ -1,8 +1,6 @@
 242. Valid Anagram
-Easy
-10.2K
-323
-Companies
+- Easy
+
 
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
@@ -12,13 +10,13 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 Example 1:
 
-Input: s = "anagram", t = "nagaram"
-Output: true
+    Input: s = "anagram", t = "nagaram"
+    Output: true
 
 Example 2:
 
-Input: s = "rat", t = "car"
-Output: false
+    Input: s = "rat", t = "car"
+    Output: false
 
  
 
