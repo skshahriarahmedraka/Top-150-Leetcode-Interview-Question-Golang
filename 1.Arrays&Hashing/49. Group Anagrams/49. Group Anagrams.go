@@ -31,9 +31,14 @@ import (
 )
 
 func main() {
-	li := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
-	// li := []string{"", "", ""}
-	fmt.Println("groupAnagrams: ", groupAnagrams(li))
+	testCase := [][]string{}
+	testCase = append(testCase, []string{"eat", "tea", "tan", "ate", "nat", "bat"})
+	testCase = append(testCase, []string{""})
+	testCase = append(testCase, []string{"a"})
+	for _,i := range testCase {
+fmt.Println("testCase: ",i)
+	fmt.Println("groupAnagrams: ", groupAnagrams(i))
+	}
 }
 
 
@@ -52,3 +57,20 @@ func groupAnagrams(strs []string) [][]string {
 	}
 	return res
 }
+
+// Another approch 
+// func groupAnagrams(strs []string) [][]string {
+//     resArr:=[][]string{}
+//     strsMap := make(map[string][]string)
+//     for _,i := range strs {
+//         runes := []rune(i)
+//         sort.Slice(runes,func(i,j int)bool{
+//             return runes[i]<runes[j]
+//         })
+//         strsMap[string(runes)]= append(strsMap[string(runes)],i)
+//     }
+//     for _,i := range strsMap {
+//         resArr = append(resArr,i)
+//     }
+//     return resArr
+// }
