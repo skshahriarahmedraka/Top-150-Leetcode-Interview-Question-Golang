@@ -1,13 +1,14 @@
 package main
 
 func main() {
-	
+
 }
 
 func lastStoneWeight(stones []int) int {
-    
+
 	for len(stones) > 1 {
 		stones = sorts.(stones)
+
 		if stones[0] == stones[1] {
 			stones = stones[2:]
 		} else {
@@ -15,7 +16,7 @@ func lastStoneWeight(stones []int) int {
 			stones = stones[1:]
 		}
 	}
-	
+
 	if len(stones) == 0 {
 		return 0
 	}
