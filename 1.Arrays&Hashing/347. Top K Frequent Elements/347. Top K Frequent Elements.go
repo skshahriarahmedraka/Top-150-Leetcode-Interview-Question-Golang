@@ -9,6 +9,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 func main() {
@@ -36,4 +37,59 @@ func topKFrequent(nums []int, k int) []int {
 		}
 	}
 	return ans[:k]
+}
+
+
+func topKFrequent(nums []int, k int) []int {
+    numsMap :=make(map[int]int)
+    for _,i := range nums {
+        numsMap[i]+=1
+    }
+    occuranceArr := make([][]int,len(nums))
+    for num,occu := range numsMap {
+        occuranceArr[occu-1] = append(occuranceArr[occu-1],num)
+    }
+    Kfreq :=[]int{}
+
+    for i:= len(occuranceArr) -1 ; i>=0 ; i--{
+		if len(occuranceArr[i]) != 0 {
+			Kfreq= append(Kfreq,occuranceArr[i]...)
+		}
+	 	
+    }
+    return Kfreq[:k]
+
+}
+
+// fastest "(Runtime: 13ms)"
+func topKFrequent(nums []int, k int) []int {
+	hash := make(map[int]int)
+
+    for _, el := range nums {
+        hash[el]++
+    }
+
+    // convert map to slice
+    var entries []struct{
+		Key   int
+		Value int
+    }
+
+    // Populate the entries slice from the frequency map
+	for key, value := range hash {
+		entries = append(entries, struct{ Key, Value int }{Key: key, Value: value})
+	}
+
+    // Sort the slice
+    sort.Slice(entries, func(i, j int) bool {
+        return entries[i].Value > entries[j].Value
+    })
+
+    result := make([]int, 0, k)
+    for i := 0; i < k; i++ {
+        result = append(result, entries[i].Key)
+
+    }
+
+	return result
 }

@@ -21,5 +21,5 @@ func decodeString(s string) string {
             ans.WriteByte(s[i])
         }
     }
-    return ans.String()
+        return ans.String()
 }
