@@ -1,4 +1,5 @@
-package  main 
+package main
+
 
 func main (){
 
@@ -23,7 +24,7 @@ var visited = make(map[int]*Node)
 	if node == nil {
 		return nil
 	}
-	
+
 	if v, ok := visited[node.Val]; ok {
 		return v
 	}
@@ -44,5 +45,5 @@ var visited = make(map[int]*Node)
 	}
 
 	return newnode
-	
+
  }
