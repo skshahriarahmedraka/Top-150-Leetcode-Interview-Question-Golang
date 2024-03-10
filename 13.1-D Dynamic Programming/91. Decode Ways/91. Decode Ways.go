@@ -10,27 +10,34 @@ package main
 
 import "strconv"
 
-func main(){
+func main() {
 
 }
 
-
 func numDecodings(s string) int {
-	
-    if len(s)==0 || s[0]=='0' {return 0}else if len(s)==1{return 1}
 
-	count1:=1
-	count2:=1
+	if len(s) == 0 || s[0] == '0' {
+		return 0
+	} else if len(s) == 1 {
+		return 1
+	}
 
-	for i:=1;i<len(s);i++{
-		d,_ :=strconv.Atoi(string(s[i]))
-		x,_ :=strconv.Atoi(string(s[i-1]))
-		dd := x*10+d
-		count :=0 
-		if d>0 { count+=count2}
-		if dd>=10 && dd<=26{count+=count1}
-		count1=count2
-		count2=count
+	count1 := 1
+	count2 := 1
+
+	for i := 1; i < len(s); i++ {
+		d, _ := strconv.Atoi(string(s[i]))
+		x, _ := strconv.Atoi(string(s[i-1]))
+		dd := x*10 + d
+		count := 0
+		if d > 0 {
+			count += count2
+		}
+		if dd >= 10 && dd <= 26 {
+			count += count1
+		}
+		count1 = count2
+		count2 = count
 
 	}
 	return count2
@@ -40,6 +47,5 @@ func numDecodings(s string) int {
 // func numDecodings(s string) int {
 // 	a:=1
 // 	len := len(s)
-
 
 // }
