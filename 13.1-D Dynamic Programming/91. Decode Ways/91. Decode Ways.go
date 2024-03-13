@@ -8,9 +8,15 @@
 // 80.50%
 package main
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
+	// fmt.Println(numDecodings("12")	)
+	fmt.Println(numDecodings("2267"))
+	// fmt.Println(numDecodings("06"))
 
 }
 
@@ -30,6 +36,7 @@ func numDecodings(s string) int {
 		x, _ := strconv.Atoi(string(s[i-1]))
 		dd := x*10 + d
 		count := 0
+		fmt.Println("count1, count2", count1, count2)
 		if d > 0 {
 			count += count2
 		}
@@ -38,7 +45,7 @@ func numDecodings(s string) int {
 		}
 		count1 = count2
 		count2 = count
-
+		fmt.Println("d , x, dd, count, count1, count2", d, x, dd, count, count1, count2)
 	}
 	return count2
 
