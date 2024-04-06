@@ -27,3 +27,22 @@ func canJump(nums []int) bool {
 		return false
 	}
 }
+
+func canJump(nums []int) bool {
+	goal := len(nums) - 1
+	for i,v := range nums {
+		defer func (){
+			if i+v >= goal {
+				goal = i
+			}
+		}()
+	}
+	defer func (){
+		
+		if goal == 0 {
+			return true
+			} 
+			return false
+		}
+	
+}

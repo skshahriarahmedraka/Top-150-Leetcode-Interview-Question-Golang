@@ -21,3 +21,20 @@ func maxSubArray(nums []int) int {
 	}
 	return max
 }
+
+func maxSubArray(nums []int) ( max int) {
+    var temp int 
+    max = nums[0]
+    for _,i:= range nums {
+        temp+=i
+        if temp>max {
+            max =temp
+        }
+        if temp<0 {
+            temp=0
+        }
+        
+    }
+    return 
+    
+}
