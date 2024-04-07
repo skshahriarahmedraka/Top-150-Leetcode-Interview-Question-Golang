@@ -42,3 +42,31 @@ func minRemoveToMakeValid(s string) string {
     }
     return s
 }
+
+
+func minRemoveToMakeValid(s string) string {
+    str := []byte(s)
+    stack := []int{}
+    for i, c := range str {
+        if c == '(' {
+            stack = append(stack, i)
+        } else if c == ')' {
+            if len(stack) == 0 {
+                str[i] = ' '
+            } else {
+                stack = stack[:len(stack)-1]
+            }
+        }
+    }
+    for _, i := range stack {
+        str[i] = ' '
+    }
+    j := 0
+    for i := 0; i < len(str); i++ {
+        if str[i] != ' ' {
+            str[j] = str[i]
+            j++
+        }
+    }
+    return string(str[:j])
+}
