@@ -13,26 +13,28 @@
  * -----
  * HISTORY:
  */
- 
 
+// 305 / 305 test cases passed.
+// 	Status: Accepted
+// Runtime: 0 ms
+// Memory Usage: 2 MB
 
- // 305 / 305 test cases passed.
- // 	Status: Accepted
- // Runtime: 0 ms
- // Memory Usage: 2 MB
- 
- // Your runtime beats 100.00 % of golang submissions.
- // Your memory usage beats 84.93 % of golang submissions.
+// Your runtime beats 100.00 % of golang submissions.
+// Your memory usage beats 84.93 % of golang submissions.
 
- package main
+package main
 
 import (
 	"fmt"
-
+	"math"
 )
 
 
 func main() {
+	fmt.Println("maxUInt",MaxUint)
+	fmt.Println("minUint", MinUint)
+	fmt.Println("MaxInt",MaxInt)
+	fmt.Println("MaxInt",MinInt)
 	fmt.Println(myPow(2.00000, -2147483648))
 }
 
@@ -58,6 +60,7 @@ func myPow(x float64, n int) float64 {
 	if n <0 {
 		x=1/x ;n*=-1
 	}
+	math.Pow()
 	ans:=1.0
 	for n>0 && ans!=0{
 		ans*=x 
@@ -68,3 +71,25 @@ func myPow(x float64, n int) float64 {
 	return ans 
 
 }
+
+func myPow(x float64, n int) float64 {
+	if n < 0 {
+		x = 1 / x
+	}
+
+	num := int64(math.Abs(float64(n)))
+	pow := 1.0
+
+	for num != 0 {
+		if num&1 != 0 { // equivalent to if((n % 2) != 0) i.e. multiply only when the number is odd 
+			pow *= x
+		}
+
+		x *= x
+		num >>= 1 // equivalent to n = n / 2; i.e. keep dividing the number by 2
+	}
+
+	return pow
+}
+
+
