@@ -87,3 +87,26 @@ func checkInclusion(s1 string, s2 string) bool {
 	}
 	return false
 }
+
+
+
+func checkInclusion(s1 string, s2 string) bool {
+	var freq [256]int 
+	var left int 
+
+	for i := range s1 {
+		freq[i]++ 
+	}	
+	for right := range s2 {
+		freq[right]--
+		if freq == [256]int{} {
+			return true 
+		}
+		if right+1 > len(s1) {
+			freq[left]++
+			left++
+		}
+	}
+
+	return false 
+}
