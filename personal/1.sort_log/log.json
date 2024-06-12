@@ -1,0 +1,27 @@
+[
+    {
+        "timestamp": "2024-06-07T10:00:00Z",
+        "requests": 150,
+        "domain": "example.com"
+    },
+    {
+        "timestamp": "2024-06-07T10:05:00Z",
+        "requests": 200,
+        "domain": "example.org"
+    },
+    {
+        "timestamp": "2024-06-07T10:10:00Z",
+        "requests": 250,
+        "domain": "example.net"
+    },
+    {
+        "timestamp": "2024-06-07T10:15:00Z",
+        "requests": 300,
+        "domain": "example.edu"
+    },
+    {
+        "timestamp": "2024-06-07T10:20:00Z",
+        "requests": 350,
+        "domain": "example.co"
+    }
+]
