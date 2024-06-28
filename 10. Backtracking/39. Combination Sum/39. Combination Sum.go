@@ -73,3 +73,32 @@ func combinationSum(candidates []int, target int) [][]int {
 	dfs([]int{}, 0, 0)
 	return res
 }
+
+
+func combinationSum(candidates []int, target int) [][]int {
+    var result [][]int
+    var tempArr []int
+
+    var backtrack func(start int, tempArr []int, currentSum int)
+    backtrack = func(start int, tempArr []int, currentSum int) {
+        if currentSum == target {
+            // Make a deep copy of tempArr and append it to result
+            combination := make([]int, len(tempArr))
+            copy(combination, tempArr)
+            result = append(result, combination)
+            return
+        } else if currentSum > target {
+            return
+        }
+
+        for i := start; i < len(candidates); i++ {
+            tempArr = append(tempArr, candidates[i])
+            backtrack(i, tempArr, currentSum + candidates[i])
+            tempArr = tempArr[:len(tempArr)-1]
+        }
+    }
+
+    backtrack(0, tempArr, 0)
+    return result
+}
+
