@@ -42,3 +42,31 @@ func searchInArrStr(wordDic []string,s string ) bool{
 	}
 	return false 
 }
+
+
+func wordBreak(s string, wordDict []string) bool {
+	memo := make(map[string]bool)
+	wordSet := make(map[string]bool)
+	for _, word := range wordDict {
+		wordSet[word] = true
+	}
+	return dfs(s, wordSet, memo)
+}
+
+func dfs(s string, wordSet map[string]bool, memo map[string]bool) bool {
+	if value, exists := memo[s]; exists {
+		return value
+	}
+	if _, exists := wordSet[s]; exists {
+		return true
+	}
+	for i := 1; i < len(s); i++ {
+		prefix := s[:i]
+		if _, exists := wordSet[prefix]; exists && dfs(s[i:], wordSet, memo) {
+			memo[s] = true
+			return true
+		}
+	}
+	memo[s] = false
+	return false
+}

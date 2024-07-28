@@ -23,10 +23,10 @@
 // You are here!
 // Your memory usage beats 99.39 % of golang submissions.
 
-
 package main
 
 import "fmt"
+
 
 func main() {
 	s := "babad"
@@ -42,8 +42,6 @@ func longestPalindrome(s string) string {
 	maxStr := string(s[0])
 	for i := 0; i < len(s); i++ {
 		//	if odd
-		// oddlen := 1
-		// oddStr := ""
 		j, k := i-1, i+1
 		for j >= 0 && k < len(s) && s[j] == s[k] {
 			if k-j+1 > maxLen {
@@ -54,7 +52,6 @@ func longestPalindrome(s string) string {
 			k+=1
 		}
 		//	if even
-		
 		j, k = i, i+1
 		for j >= 0 && k < len(s) && s[j] == s[k] {
 			if k-j+1 > maxLen {
@@ -64,7 +61,7 @@ func longestPalindrome(s string) string {
 			j-=1
 			k+=1
 		}
-		
+
 	}
 
 	return maxStr
