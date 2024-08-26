@@ -14,9 +14,9 @@ func main() {
 func getSum(a int, b int) int {
 
 	for b != 0 {
-		c := a & b
-		a = a ^ b
-		b = c << 1
+		c := a & b  // here c is the carry when a and b are added
+		a = a ^ b  // here a is the sum of a and b without considering the carry
+		b = c << 1 // here b is the carry shifted to the left by 1
 	}
 	return a
 }

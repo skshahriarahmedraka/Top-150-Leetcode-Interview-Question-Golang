@@ -1,0 +1,21 @@
+/**
+ * Definition for a Node.
+ * type Node struct {
+ *     Val int
+ *     Children []*Node
+ * }
+ */
+
+func postorder(root *Node) []int {
+    child := []int{}
+    if root ==nil || root.Children ==nil {
+        return child
+    }
+    for i:=0 ;i <len(root.Children);i++ {
+        if root.Children[i] !=nil {
+            child = append(child, postorder(root.Children[i])...)
+        }
+    }
+    child = append(child, root.Val)
+    return child 
+}
